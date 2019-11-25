@@ -303,13 +303,19 @@ iframe {
 
 .gallery__item {
     width: 26%;
-    padding: 10px;
 }
 
 .gallery__image {
     border-top-color: #ef008e;
     border-top-style: solid;
+    cursor: pointer;
+    width: 95%;
+    margin: 2.5%;
+}
+
+.gallery__image:hover {
     width: 100%;
+    margin: 0;
 }
 
 /*Contact*/
